@@ -1,0 +1,83 @@
+.screen  {
+    display: flex;
+    position: relative;
+    height: 75%;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    display: flex;
+    position: absolute;
+    transition: left 0.8s;
+}
+
+.section-circle {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-left: 55%;
+    align-content: center;
+    justify-content: space-between;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    list-style: none;
+    opacity: 0.9;
+    transition: opacity 0.5s;
+}
+.circle:focus {
+    outline: none;
+}
+.circle:hover {
+    box-shadow: 0 0 10px #393838;
+}
+.circle + .circle {
+    margin-left: 12px;
+}
+.circle.active {
+    background-color: #d8ae00;
+    width: 30px;
+    height: 8px;
+    border-radius: 8px;
+}
+.btnSlide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    margin: 40px;
+    color: white;
+}
+.btnRight:hover {
+    box-shadow: 0 0 10px #393838;
+}
+.btnLeft:hover {
+    box-shadow: 0 0 10px whitesmoke;
+}
+.btnSlide:focus {
+    outline: none;
+}
+.btnRight {
+    right: 0;
+}
+.btnLeft{
+    transform: rotate(180deg);
+    left: 0;
+}
+

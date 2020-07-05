@@ -1,0 +1,28 @@
+.importantNews{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #393838;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0 0 10px #2a2a2a;
+    z-index: 2;
+    position: relative
+    /*border-bottom: 1px solid black;*/
+}
+.importantNews a {
+ color: white;
+}
+.importantNews span {
+ color: #ffcd00;
+    font-size: 16px;
+}
+.importantNews:hover{
+    box-shadow: 0 5px 10px #2a2a2a;
+}
+.importantNews a:hover {
+    text-shadow: 0 2px 5px white;
+}
+

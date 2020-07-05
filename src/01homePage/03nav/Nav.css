@@ -1,0 +1,70 @@
+.nav{
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 50px;
+    background-color: white;
+    box-shadow:  0 5px 15px #5c5c5c;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none
+}
+.giveForm, .menu, .personalAccount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.giveForm{
+    width: 200px;
+    height: 40px;
+    background-color: #ffcd00;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #393838;
+    padding: 0 10px;
+}
+.giveForm_text{
+    font-family: 'Circe Bold';
+    margin-right: 10px;
+}
+.giveForm_container{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.giveForm_pen{
+    transform: rotate(90deg);
+    font-size: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.menu div{
+    margin: 0 30px;
+}
+.menu a{
+    color: #393838;
+}
+.personalAccount{
+    color: #deb303;
+    cursor: pointer;
+    width: 170px;
+}
+.personalAccount_container{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #deb303;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.personalAccount_user{
+    font-size: 20px;
+}
+
+

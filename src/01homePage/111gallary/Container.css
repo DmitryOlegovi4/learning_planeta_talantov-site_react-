@@ -1,0 +1,12 @@
+.frame{
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    transition: left 0.5s;
+}
+.container{
+    display: flex;
+    position: absolute;
+}

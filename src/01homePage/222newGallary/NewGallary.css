@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 15px auto;
+}
+.slider-container{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.sliders-track{
+    display: flex;
+    transition: .2s;
+}
+.slider{
+    height: 150px;
+    display: flex;
+}
+.sliderImg{
+    width: 100%;
+    padding: 3px;
+}
+.slider:nth-child(3n+1) {background-color: red}
+.slider:nth-child(3n+2) {background-color: green}
+.slider:nth-child(3n+3) {background-color: blue}
+.slider-buttons{
+    text-align: center;
+    font-weight: bold;
+}
+.btn-prev, .btn-next{
+    letter-spacing: 1px;
+    padding: 0 3px;
+}

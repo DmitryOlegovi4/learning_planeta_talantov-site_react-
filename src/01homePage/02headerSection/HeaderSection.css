@@ -1,0 +1,53 @@
+.headerSection{
+    width: 100%;
+    height: 55%;
+    position: relative;
+}
+.logo-phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo-phone a{
+    text-decoration: none
+}
+.logo, .logoElem{
+    display: flex;
+    flex-direction: row;
+}
+.logoElem p{
+    color: #ffcd00;
+    font-family: 'Circe ExtraBold';
+    text-align: left;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.logoElem img{
+    margin-top: -5px;
+    margin-right: 10px;
+    height: 40px;
+}
+.fond{
+    height: 35px;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Circe Light';
+    text-align: left;
+    border-left: 1px solid white;
+    line-height: 1;
+    font-size: 12px;
+}
+.phone{
+    font-family: 'Circe';
+    text-align: left;
+    line-height: 1;
+    color: #393838;
+}
+.phone p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+

@@ -1,0 +1,116 @@
+
+.wrapper{
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 100px;
+    position: relative;
+}
+/*.currentText{*/
+/*    margin: 0 auto 10px;*/
+/*}*/
+.slider-container{
+    overflow: hidden;
+}
+.sliders-track{
+    display: flex;
+    transition: transform 0.8s;
+}
+.slider{
+    position: relative;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    text-align: left;
+    padding: 40px 15px;
+    color: white;
+    border-radius: 10px;
+}
+.slider_header{
+    margin-bottom: 20px;
+}
+.slider_header_title{
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 20px;
+}
+.slider_header_city{
+    font-family: "Circe ExtraBold";
+    font-size: 26px;
+}
+.slider_content{
+    display: flex;
+    flex-direction: row;
+}
+.slider_content p{
+    margin-bottom: 5px;
+}
+.slider_content a{
+    color: white;
+    font-family: "Circe Bold";
+    font-size: 14px;
+}
+.giveForm_text2{
+    display: flex;
+    margin-left: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #ffcd00;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 7px 10px 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.giveForm_text2 a{
+    text-decoration: none;
+    color: #393838;
+    font-size: 15px;
+    transform: translateY(50px);
+}
+.slider-buttons{
+    text-align: center;
+    font-weight: bold;
+}
+.btn-prev, .btn-next{
+    letter-spacing: 1px;
+    padding: 0 3px;
+}
+
+.btnSlider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid #ffcd00;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    color: #393838;
+    margin: 40px;
+}
+.btn-next:hover {
+    box-shadow: 0 0 10px #ffcd00;
+}
+.btn-prev:hover {
+    box-shadow: 0 0 10px #ffcd00;
+}
+.btnSlider:focus {
+    outline: none;
+}
+.btn-next {
+    right: 0;
+}
+.btn-prev{
+    transform: rotate(180deg);
+    left: 0;
+}
