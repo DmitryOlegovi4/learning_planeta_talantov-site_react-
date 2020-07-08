@@ -1,9 +1,0 @@
-.BackgroundDiv{
-    width: 100%;
-    height: 1000px;
-    max-height: 800px;
-    background-image: url("./header-nav-current-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}

@@ -1,7 +1,10 @@
 .headerSection{
     width: 100%;
-    height: 55%;
+    height: 450px;
     position: relative;
+    background-image: url("./home-header-background-only_top.jpg");
+    background-repeat: no-repeat;
+    background-color: #ffcd00;
 }
 .logo-phone{
     display: flex;

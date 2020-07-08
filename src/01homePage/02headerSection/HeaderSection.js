@@ -1,13 +1,13 @@
 import React,{Component} from "react";
 import './HeaderSection.css'
-import Slider from "./Slider";
+import SliderHeader from "./SliderHeader";
 
 class HeaderSection extends Component{
     render(){
         return(
             <div className="headerSection">
                 <div className='logo-phone'>
-                    <a href="#"><div className='logo'>
+                    <a href="/"><div className='logo'>
                         <div className='logoElem'>
                             <img src="./logo.png" alt="logo"/>
                             <p>ПЛАНЕТА <br/>ТАЛАНТОВ</p>
@@ -19,7 +19,7 @@ class HeaderSection extends Component{
                         <p>ЗВОНОК ПО РОССИИ<br/> БЕСПЛАТНЫЙ</p>
                     </div>
                 </div>
-                <Slider/>
+                <SliderHeader/>
             </div>
         )
     }
