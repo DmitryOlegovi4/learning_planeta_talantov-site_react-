@@ -1,5 +1,23 @@
 .MenuAndMiniNews{
     width: 100%;
     display: flex;
-    margin: 0 100px;
+    flex-direction: row;
+    padding: 0 100px;
+    margin-bottom: 150px;
+}
+@media(max-width:1200px){
+    .MenuAndMiniNews{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:800px){
+    .MenuAndMiniNews{
+        flex-direction: column;
+    }
+}
+@media(max-width:500px){
+    .MenuAndMiniNews{
+        padding: 0 50px;
+    }
 }

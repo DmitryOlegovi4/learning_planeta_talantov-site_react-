@@ -1,0 +1,56 @@
+.MainMenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: left;
+}
+.MainMenuContainer{
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+}
+.MainMenuContainer a{
+    text-decoration: none;
+}
+.MainMenuFirstElem{
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.MainMenuFirstElem:hover {
+    box-shadow: 2px 2px 3px #393838;
+}
+.MainMenuFirstElem p{
+    font-family: "Circe Bold";
+    color: #393838;
+    margin: 15px;
+    line-height: 1;
+    font-size: 20px;
+}
+.MainMenuElem{
+    display: flex;
+    align-items: flex-end;
+    margin: 5px 0;
+    background-blend-mode: overlay, color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Circe Bold";
+    color: white;
+    border-radius: 5px;
+}
+.MainMenuElem:hover {
+    box-shadow: 2px 2px 3px #393838;
+}
+
+.MainMenuElem p{
+    font-family: "Circe Bold";
+    margin: 15px;
+    line-height: 1;
+    font-size: 20px;
+    white-space: pre-line;
+}

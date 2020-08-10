@@ -53,4 +53,90 @@
     margin-top: 5px;
 }
 
+@media(max-width:950px){
+    .headerSection {
+        background-image: url("./home-header-background-only_top_2.jpg");
+    }
+    .logoElem p{
+        font-size: 14px;
+    }
+    .logoElem img{
+        height: 35px;
+    }
+    .fond{
+        height: 30px;
+        font-size: 10px;
+    }
+    .phone{
+        font-size: 12px;
+    }
+    .phone p{
+        font-size: 10px;
+    }
+}
+@media(max-width:720px){
+    .headerSection {
+        height: 350px;
+        background-size: cover;
+    }
+    .logoElem p{
+        font-size: 12px;
+    }
+    .logoElem img{
+        height: 30px;
+    }
+    .fond{
+        height: 25px;
+        font-size: 9px;
+        font-family: "Circe Bold";
+    }
+    .phone{
+        font-size: 10px;
+    }
+    .phone p{
+        font-size: 8px;
+    }
+
+}
+@media(max-width:600px){
+    .headerSection {
+        height: 300px;
+    }
+
+}
+@media(max-width:500px) {
+    .headerSection {
+        background-image: url("./home-header-background-only_top_none.jpg");
+    }
+    .phone{
+        color:white
+    }
+}
+@media(max-width:400px) {
+    .headerSection {
+        height: 270px;
+    }
+    .logoElem p{
+        font-size: 10px;
+    }
+    .logoElem img{
+        height: 25px;
+        margin-right: 5px;
+    }
+    .fond{
+        height: 20px;
+        font-size: 7px;
+        padding-left: 5px;
+        margin-left: 5px;
+        line-height: 1.1;
+    }
+    .phone{
+        font-size: 8px;
+    }
+    .phone p{
+        font-size: 6px;
+        margin-top: 3px;
+        line-height: 1.2;
+    }
+}
 

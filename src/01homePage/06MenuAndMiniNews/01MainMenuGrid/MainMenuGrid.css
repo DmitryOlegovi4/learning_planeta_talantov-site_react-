@@ -1,0 +1,152 @@
+.MainMenuGrid{
+    display: grid;
+    width: 70%;
+    text-align: left;
+    grid-template-columns: repeat(3,31%);
+    grid-template-rows: repeat(20,30px);
+    grid-gap: 10px;
+}
+.MainMenuGrid a{
+    text-decoration: none;
+}
+.MainMenuFirstElemGrid{
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    background-color: #ffcd00;
+    border-radius: 5px;
+}
+.MainMenuFirstElemGrid:hover {
+    box-shadow: 2px 2px 3px #393838;
+}
+.MainMenuFirstElemGrid a p{
+    font-family: "Circe Bold";
+    color: #393838;
+    margin: 15px;
+    line-height: 1;
+    font-size: 20px;
+}
+.MainMenuElemGrid{
+    display: flex;
+    align-items: flex-end;
+    background-blend-mode: overlay, color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Circe Bold";
+    color: white;
+    border-radius: 5px;
+}
+.MainMenuElemGrid:hover {
+    box-shadow: 2px 2px 3px #393838;
+}
+.MainMenuElemGrid a p{
+    color: white;
+    font-family: "Circe Bold";
+    margin: 15px;
+    line-height: 1;
+    font-size: 20px;
+    white-space: pre-line;
+}
+.MainMenuItem_0{
+    grid-area: 1/1/5/2;
+}
+.MainMenuItem_1{
+    grid-area: 5/1/11/2;
+}
+.MainMenuItem_2{
+    grid-area: 1/2/7/3;
+}
+.MainMenuItem_3{
+    grid-area: 7/2/11/3;
+}
+.MainMenuItem_4{
+    grid-area: 1/3/5/4;
+}
+.MainMenuItem_5{
+    grid-area: 5/3/11/4;
+}
+.MainMenuItem_6{
+    grid-area: 11/1/15/2;
+}
+.MainMenuItem_7{
+    grid-area: 11/2/17/3;
+}
+.MainMenuItem_8{
+    grid-area: 11/3/15/4;
+}
+.MainMenuItem_9{
+    grid-area: 15/3/21/4;
+}
+@media(max-width:1200px){
+    .MainMenuGrid{
+        grid-template-rows: repeat(20,25px);
+    }
+    .MainMenuFirstElemGrid a p{
+        font-size: 18px;
+    }
+    .MainMenuElemGrid a p{
+        font-size: 18px;
+    }
+}
+@media(max-width:950px){
+    .MainMenuGrid{
+        grid-template-rows: repeat(20,20px);
+    }
+    .MainMenuFirstElemGrid a p{
+        font-size: 14px;
+        margin: 10px;
+    }
+    .MainMenuElemGrid a p{
+        font-size: 14px;
+        margin: 10px;
+    }
+}
+@media(max-width:800px){
+    .MainMenuGrid{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(20,20px);
+    }
+}
+@media(max-width:600px){
+    .MainMenuGrid{
+        grid-template-rows: repeat(20,15px);
+    }
+    .MainMenuFirstElemGrid a p{
+        font-size: 12px;
+    }
+    .MainMenuElemGrid a p{
+        font-size: 12px;
+    }
+}
+@media(max-width:500px){
+    .MainMenuGrid{
+        grid-template-rows: repeat(20,15px);
+        grid-gap: 7px;
+    }
+    .MainMenuFirstElemGrid a p{
+        font-size: 12px;
+    }
+    .MainMenuElemGrid a p{
+        font-size: 10px;
+    }
+}
+@media(max-width:400px){
+    .MainMenuGrid{
+        grid-template-rows: repeat(20,12px);
+        grid-gap: 5px;
+    }
+    .MainMenuFirstElemGrid{
+        background-position: 0 -5px;
+    }
+    .MainMenuFirstElemGrid a p{
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+    .MainMenuElemGrid a p{
+        font-size: 8px;
+    }
+}

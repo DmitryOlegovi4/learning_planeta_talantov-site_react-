@@ -1,0 +1,177 @@
+.Counters{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 200px 100px 100px;
+    text-align: left;
+    color: #393838;
+}
+.CountersFirstContainer{
+    margin-left: 300px;
+    margin-bottom: 80px;
+}
+.CountersSecondContainer{
+    margin-right: 50px;
+}
+.CountersFirstContainer, .CountersSecondContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CountersElem{
+    display: flex;
+    flex-direction: column;
+}
+.CountersElem p{
+    white-space: pre-line;
+}
+.CountersElem hr{
+    height: 10px;
+    background-color:  #ffcd00;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.CountersFirstContainer .CountersElem:first-child hr{
+    width: 80px;
+}
+.CountersElem p:last-child{
+    margin-top: 5px;
+    line-height: 1.2;
+
+}
+.CountersElem .CountersElem_number{
+    font-size: 50px;
+    line-height: 0.3;
+    z-index: 2;
+}
+.CountersFirstContainer .CountersElem .CountersElem_number {
+    font-family: "Circe Bold";
+}
+.CountersSecondContainer .CountersElem .CountersElem_number {
+    font-family: "Circe Light";
+}
+
+@media(max-width:1200px){
+    .Counters{
+        padding: 200px 100px 50px;
+    }
+    .CountersFirstContainer{
+        margin-left: 250px;
+        margin-bottom: 60px;
+    }
+}
+@media(max-width:1100px){
+    .Counters{
+        padding: 150px 100px 40px;
+    }
+    .CountersFirstContainer{
+        margin-left: 230px;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:1000px){
+    .Counters{
+        padding: 120px 100px 30px;
+    }
+    .CountersFirstContainer{
+        margin-left: 30%;
+    }
+}
+@media(max-width:950px){
+    .Counters{
+        padding: 150px 100px 30px;
+    }
+    .CountersElem .CountersElem_number{
+        font-size: 40px;
+    }
+    .CountersElem_descr{
+        font-size: 14px;
+    }
+}
+@media(max-width:850px){
+    .CountersFirstContainer{
+        margin-left: 25%;
+    }
+}
+@media(max-width:800px){
+    .Counters{
+        padding: 120px 100px 30px;
+    }
+    .CountersFirstContainer{
+        margin-left: 20%;
+    }
+    .CountersElem .CountersElem_number{
+        font-size: 35px;
+    }
+    .CountersElem_descr{
+        font-size: 12px;
+    }
+    .CountersSecondContainer{
+        margin-right: 30px;
+    }
+}
+@media(max-width:700px){
+    .CountersFirstContainer{
+        margin-left: 15%;
+        margin-bottom: 30px;
+    }
+    .CountersElem .CountersElem_number{
+        font-size: 30px;
+    }
+    .CountersElem_descr{
+        font-size: 10px;
+    }
+    .CountersSecondContainer{
+        margin-right: 20px;
+    }
+}
+@media(max-width:600px){
+    .CountersFirstContainer{
+        margin-left: 10%;
+    }
+    .CountersElem .CountersElem_number{
+        font-size: 24px;
+    }
+    .CountersElem_descr{
+        font-size: 9px;
+    }
+    .CountersSecondContainer{
+        margin-right: 20px;
+    }
+    .CountersFirstContainer .CountersElem:first-child hr{
+        width: 60px;
+    }
+    .CountersElem{
+        margin-right: 10px;
+    }
+}
+@media(max-width:500px){
+    .Counters{
+        padding: 100px 50px 30px;
+    }
+}
+@media(max-width:400px){
+    .Counters{
+        padding: 80px 50px 30px;
+    }
+    .CountersFirstContainer{
+        margin-bottom: 20px;
+    }
+    .CountersElem .CountersElem_number{
+        font-size: 20px;
+    }
+    .CountersElem_descr{
+        font-size: 8px;
+    }
+    .CountersSecondContainer{
+        margin-right: 10px;
+    }
+    .CountersFirstContainer .CountersElem:first-child hr{
+        width: 50px;
+    }
+    .CountersElem{
+        margin-right: 10px;
+    }
+}

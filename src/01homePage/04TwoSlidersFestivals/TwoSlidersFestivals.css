@@ -4,5 +4,14 @@
     background-image: url("./home-slider-background-misic_note.jpg");
     background-repeat: no-repeat;
     background-position: 0 -2% ;
-
+}
+@media(max-width:950px){
+    .TwoSlidersFestivals{
+        background-image: url("./home-slider-background-misic_note_2.jpg");
+    }
+}
+@media(max-width:720px){
+    .TwoSlidersFestivals{
+        background-image: none;
+    }
 }

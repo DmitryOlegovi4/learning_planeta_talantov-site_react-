@@ -16,15 +16,30 @@ class FestItem extends Component{
         }
         this.slidersToShow = slidersToShow;
         window.addEventListener('resize', ()=>{
-            this.setState((prev)=>{
-                prev.minWidth = (window.innerWidth-260) /this.slidersToShow;
+            if (window.innerWidth > 1200){
+                this.slidersToShow = 3
+            } else if (window.innerWidth > 720){
+                this.slidersToShow = 2
+            } else {
+                this.slidersToShow = 1
+            }
+            if (window.innerWidth > 500){
+                this.setState((prev)=>{
+                prev.minWidth = (window.innerWidth-200-this.slidersToShow*20) /this.slidersToShow;
                 return prev
-            })
+                })
+            } else {
+                this.setState((prev)=>{
+                    prev.minWidth = (window.innerWidth-100-this.slidersToShow*20) /this.slidersToShow;
+                    return prev
+                })
+            }
+
         })
     }
     render() {
         return(
-            <div className="slider" style={{backgroundImage: 'linear-gradient(0deg, #393838, #3e3e3e), '+ this.style.backgroundImage, minWidth: this.state.minWidth  + 'px'}}>
+            <div className="slider" style={{backgroundImage: 'linear-gradient(0deg, #393838, black), '+ this.style.backgroundImage, minWidth: this.state.minWidth  + 'px'}}>
                 <div className='slider_header'>
                     <p className='slider_header_title'>&laquo;{this.state.title}&raquo;</p>
                     <p className='slider_header_city'>{this.state.city}</p>

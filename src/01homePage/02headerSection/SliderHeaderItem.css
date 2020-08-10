@@ -12,7 +12,7 @@
     font-size: 30px;
     margin-bottom: 15px;
 }
-.slide h1{
+.contest h1{
     font-family: "Circe ExtraBold";
     line-height: 1;
     margin-bottom: 10px;
@@ -38,4 +38,104 @@
 }
 .detailed:hover {
     box-shadow: 10px 10px 20px black;
+}
+@media(max-width:1200px){
+    .contest {
+        color: white;
+    }
+    .contest h1{
+        font-size: 28px;
+    }
+
+    .detailed{
+        color: #393838;
+    }
+}
+@media(max-width:950px){
+    .city{
+        font-size: 26px;
+        text-shadow: 0 5px 7px white;
+    }
+    .contest h1{
+        font-size: 26px;
+    }
+    .date{
+        font-size: 16px;
+    }
+    .detailed{
+        width: 160px;
+        height: 35px;
+    }
+    .detailed p {
+        font-size: 12px;
+    }
+}
+@media(max-width:720px){
+    .city{
+        font-size: 22px;
+    }
+    .contest h1{
+        font-size: 22px;
+    }
+    .date{
+        font-size: 14px;
+    }
+    .detailed{
+        width: 140px;
+        height: 30px;
+    }
+    .detailed p {
+        font-size: 10px;
+    }
+}
+@media(max-width:600px){
+    .contest{
+        padding-top: 15px;
+    }
+    .city{
+        font-size: 20px;
+    }
+    .contest h1{
+        font-size: 20px;
+    }
+    .date{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .detailed{
+        width: 120px;
+        height: 25px;
+    }
+    .detailed p {
+        font-size: 9px;
+    }
+    .detailed:hover {
+         box-shadow: 8px 8px 15px black;
+    }
+}
+@media(max-width:400px){
+    .contest{
+        padding-top: 10px;
+    }
+    .city{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .contest h1{
+        font-size: 16px;
+    }
+    .date{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .detailed{
+        width: 100px;
+        height: 20px;
+    }
+    .detailed p {
+        font-size: 8px;
+    }
+    .detailed:hover {
+         box-shadow: 8px 8px 15px black;
+    }
 }

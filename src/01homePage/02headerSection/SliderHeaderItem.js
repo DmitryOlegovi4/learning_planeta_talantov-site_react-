@@ -9,12 +9,22 @@ class SliderHeaderItem extends Component{
             title: elem.title,
             date: elem.date,
             width: window.innerWidth,
-            paddingLeft: window.innerWidth*0.55
+            paddingLeft: window.innerWidth>950? window.innerWidth*0.55: window.innerWidth>600? window.innerWidth*0.45: window.innerWidth>500? window.innerWidth*0.4: window.innerWidth>350? window.innerWidth*0.3: window.innerWidth*0.2
         }
         window.addEventListener('resize', ()=>{
             this.setState((prev)=>{
                 prev.width = window.innerWidth;
-                prev.paddingLeft = window.innerWidth*0.55
+                if (prev.width > 950){
+                    prev.paddingLeft = window.innerWidth*0.55
+                } else if (prev.width > 600) {
+                    prev.paddingLeft = window.innerWidth*0.45
+                } else if (prev.width > 500) {
+                    prev.paddingLeft = window.innerWidth*0.4
+                } else if (prev.width > 350) {
+                    prev.paddingLeft = window.innerWidth*0.3
+                } else {
+                    prev.paddingLeft = window.innerWidth*0.2
+                }
                 return prev
             })
         })

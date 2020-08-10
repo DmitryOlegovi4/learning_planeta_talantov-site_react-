@@ -1,0 +1,40 @@
+.OurTeamElem{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 10px 10px 50px black;
+    overflow: auto ;
+}
+
+.OurTeamElem h2{
+    color: #393838;
+    margin-top: 30px;
+}
+.UserCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.UserCard.AddElem{
+    cursor: pointer;
+    font-size: 12px;
+}
+.UserCard.AddElem:hover{
+    box-shadow: 5px 5px 10px rgb(57,56,56);
+}
+
+.AddUserWrapper{
+    display: flex;
+    background-color: rgba(57,56,56,0.8);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+}

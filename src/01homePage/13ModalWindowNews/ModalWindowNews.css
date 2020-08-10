@@ -1,0 +1,146 @@
+.ModalWindowNews{
+    opacity: 0.98;
+    top: 600px;
+    right: 8vw;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 25%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 5px;
+    box-shadow: 0 0 5px #393838;
+}
+.modalClose{
+    position: absolute;
+    color: #ffcd00;
+    font-size: 26px;
+    cursor: pointer;
+    opacity: 0.6;
+    right: 15px;
+    top: 5px;
+}
+.modalClose:hover {
+    opacity: 1;
+}
+.modalTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 10px -15px;
+}
+.modalTitle_img{
+    max-width: 70px;
+}
+.modalTitle p{
+    font-family: "Circe Bold";
+    margin-top: 30px;
+    font-size: 18px;
+}
+.modalAllNews{
+    text-align: center;
+    font-family: "Circe Bold";
+    font-size: 14px;
+    cursor: pointer;
+}
+@media(max-width:1200px){
+    .modalTitle_img{
+        max-width: 60px;
+    }
+    .modalTitle p{
+        font-size: 16px;
+    }
+}
+@media(max-width:1000px){
+    .ModalWindowNews{
+        width: 30%;
+    }
+    .modalTitle_img{
+        max-width: 50px;
+    }
+    .modalTitle p{
+        font-size: 14px;
+    }
+    .modalAllNews{
+        font-size: 12px;
+    }
+}
+@media(max-width:800px){
+    .modalClose{
+        font-size: 22px;
+    }
+    .modalTitle_img{
+        max-width: 45px;
+    }
+    .modalTitle p{
+        font-size: 12px;
+    }
+    .modalAllNews{
+        font-size: 11px;
+        padding-top: 10px;
+        border-top: 1px solid #ffcd00;
+    }
+}
+@media(max-width:720px) {
+    .ModalWindowNews {
+        top: 500px;
+    }
+}
+@media(max-width:700px){
+    .ModalWindowNews{
+        width: 35%;
+        padding: 0 20px 5px;
+    }
+    .modalClose{
+        font-size: 22px;
+    }
+    .modalTitle_img{
+        max-width: 45px;
+    }
+    .modalTitle p{
+        font-size: 12px;
+    }
+    .modalAllNews{
+        font-size: 10px;
+    }
+}
+@media(max-width:600px){
+    .ModalWindowNews{
+        top: 440px;
+        width: 40%;
+    }
+    .modalAllNews{
+        border-top: none;
+    }
+}
+@media(max-width:450px){
+    .ModalWindowNews{
+        width: 45%;
+        padding: 0 15px 5px;
+    }
+    .modalClose{
+        font-size: 20px;
+    }
+    .modalTitle{
+        margin: 10px 0 10px -10px;
+    }
+    .modalTitle_img{
+        max-width: 40px;
+    }
+    .modalTitle p{
+        font-size: 12px;
+    }
+    .modalAllNews{
+        font-size: 10px;
+    }
+}
+@media(max-width:400px){
+    .ModalWindowNews{
+        width: 50%;
+        padding: 0 10px 5px;
+    }
+    .modalTitle{
+        margin: 10px 0 10px -5px;
+    }
+}

@@ -10,7 +10,6 @@
     border-radius: 10px;
     text-align: left;
 }
-
 .GetFestForm h2{
     line-height: 1.2;
     font-family: "Circe Bold";
@@ -24,7 +23,6 @@
     height: 50px;
     border: 1px solid #b5b5b5;
     padding-left: 30px;
-
 }
 .GetFestForm input:focus, .GetFestForm button:focus {
     outline: none;
@@ -42,4 +40,163 @@
 }
 .GetFestForm button:hover {
     box-shadow: 5px 5px 10px #393838;
+}
+@media(max-width:1200px){
+    .GetFestForm{
+        height: 100px;
+        padding: 15px 40px;
+    }
+    .GetFestForm h2{
+        line-height: 1;
+        font-size: 20px;
+    }
+    .GetFestForm p{
+        font-size: 14px;
+    }
+    .GetFestForm input {
+        height: 45px;
+        width: 28%;
+        font-size: 12px;
+    }
+    .GetFestForm button{
+        height: 45px;
+        width: 18%;
+        font-size: 11px;
+    }
+}
+@media(max-width:950px){
+    .GetFestForm{
+        height: 80px;
+        padding: 10px 30px;
+    }
+    .GetFestForm h2{
+        line-height: 0.9;
+        font-size: 18px;
+    }
+    .GetFestForm p{
+        font-size: 12px;
+    }
+    .GetFestForm input {
+        height: 40px;
+        width: 28%;
+        font-size: 10px;
+    }
+    .GetFestForm button{
+        height: 40px;
+        width: 18%;
+        font-size: 9px;
+    }
+}
+@media(max-width:800px){
+    .GetFestForm{
+        height: 70px;
+        padding: 10px 20px;
+    }
+    .GetFestForm h2{
+        line-height: 0.8;
+        font-size: 16px;
+    }
+    .GetFestForm p{
+        font-size: 10px;
+    }
+    .GetFestForm input {
+        height: 35px;
+        width: 28%;
+        font-size: 9px;
+        padding-left: 20px;
+    }
+    .GetFestForm button{
+        height: 35px;
+        width: 18%;
+        font-size: 8px;
+    }
+}
+@media(max-width:720px){
+    .GetFestForm{
+        flex-wrap: wrap;
+        height: 100px;
+        padding: 10px 20px;
+    }
+    .GetFestForm div{
+        width: 100%;
+    }
+    .GetFestForm h2{
+        line-height: 0.8;
+        font-size: 18px;
+    }
+    .GetFestForm p{
+        font-size: 12px;
+    }
+    .GetFestForm input {
+        height: 35px;
+        width: 250px;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .GetFestForm button{
+        height: 35px;
+        width: 25%;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}
+@media(max-width:600px){
+    .GetFestForm{
+        flex-wrap: wrap;
+        height: 100px;
+        padding: 10px 15px;
+    }
+    .GetFestForm div{
+        width: 100%;
+    }
+    .GetFestForm h2{
+        line-height: 0.8;
+        font-size: 16px;
+    }
+    .GetFestForm p{
+        font-size: 11px;
+    }
+    .GetFestForm input {
+        height: 30px;
+        width: 70%;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .GetFestForm button{
+        height: 35px;
+        width: 25%;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+}
+@media(max-width:500px){
+    .GetFestForm{
+        margin: 15px 50px;
+    }
+}
+@media(max-width:400px){
+    .GetFestForm {
+        padding: 5px 10px;
+        height: 80px;
+    }
+    .GetFestForm h2{
+        line-height: 0.8;
+        font-size: 14px;
+    }
+    .GetFestForm p{
+        font-size: 8px;
+    }
+    .GetFestForm input {
+        height: 30px;
+        width: 70%;
+        font-size: 8px;
+        padding-left: 15px;
+    }
+    .GetFestForm button{
+        height: 30px;
+        width: 25%;
+        font-size: 8px;
+        line-height: 1.1;
+        border-radius: 10px;
+    }
 }

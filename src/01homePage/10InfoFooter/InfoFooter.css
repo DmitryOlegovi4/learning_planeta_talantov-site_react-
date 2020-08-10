@@ -1,0 +1,201 @@
+.InfoFooter{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px;
+    padding: 0 100px;
+}
+.InfoFooter_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.InfoFooter_content_links{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.InfoFooter_content_links a{
+    text-decoration: none;
+    color: black;
+    font-family: "Circe Bold";
+}
+.InfoFooter_content_links p{
+    color: black;
+    font-family: "Circe Bold";
+    cursor: pointer;
+}
+.InfoFooter_content_links a:hover, .InfoFooter_content_links p:hover {
+    text-shadow: 5px 5px 5px #ffcd00;
+}
+.InfoFooter_content_phone{
+    text-align: left;
+}
+.InfoFooter_content_phone p:first-child{
+    font-family: "Circe Bold";
+    font-size: 22px;
+}
+.InfoFooter_content_phone p:last-child{
+    color: #c0c0c0;
+    line-height: 1;
+    font-size: 14px;
+}
+.InfoFooter_sections{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-between;
+}
+.InfoFooter_sections_links{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.InfoFooter_sections_links a{
+    text-decoration: none;
+    color: #c0c0c0;
+    margin-bottom: 5px;
+}
+.InfoFooter_sections_links a:hover{
+    color: black;
+}
+.OurTeamWrapper{
+    display: flex;
+    background-color: rgba(57,56,56,0.8);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+@media(max-width:1200px) {
+    .InfoFooter_content_links a{
+        font-size: 14px;
+    }
+    .InfoFooter_content_links p{
+        font-size: 14px;
+    }
+    .InfoFooter_content_phone p:first-child{
+        font-size: 20px;
+    }
+    .InfoFooter_content_phone p:last-child{
+        font-size: 12px;
+    }
+    .InfoFooter_sections_links a{
+        font-size: 14px;
+    }
+}
+@media(max-width:1000px) {
+    .InfoFooter_content_links a{
+        font-size: 12px;
+    }
+    .InfoFooter_content_links p{
+        font-size: 12px;
+    }
+    .InfoFooter_content_phone p:first-child{
+        font-size: 18px;
+    }
+    .InfoFooter_content_phone p:last-child{
+        font-size: 10px;
+    }
+    .InfoFooter_sections_links a{
+        font-size: 12px;
+    }
+}
+@media(max-width:900px) {
+    .InfoFooter_content_links{
+        width: 50%;
+    }
+    .InfoFooter_content_links a{
+        font-size: 11px;
+    }
+    .InfoFooter_content_links p{
+        font-size: 11px;
+    }
+    .InfoFooter_content_phone p:first-child{
+        font-size: 16px;
+    }
+    .InfoFooter_content_phone p:last-child{
+        font-size: 9px;
+    }
+    .InfoFooter_sections{
+        width: 50%;
+    }
+    .InfoFooter_sections_links a{
+        font-size: 10px;
+    }
+}
+@media(max-width:750px) {
+    .InfoFooter_content_links{
+        width: 60%;
+    }
+    .InfoFooter_sections{
+        width: 60%;
+    }
+}
+@media(max-width:650px) {
+    .InfoFooter_content_links a{
+        font-size: 8px;
+    }
+    .InfoFooter_content_links p{
+        font-size: 8px;
+    }
+    .InfoFooter_content_phone p:first-child{
+        font-size: 12px;
+    }
+    .InfoFooter_content_phone p:last-child{
+        font-size: 8px;
+    }
+    .InfoFooter_sections_links a{
+        font-size: 8px;
+    }
+}
+@media(max-width:500px){
+    .InfoFooter{
+        padding: 0 50px;
+    }
+}
+@media(max-width:450px) {
+    .InfoFooter_content_links a{
+        font-size: 7px;
+    }
+    .InfoFooter_content_links p{
+        font-size: 7px;
+    }
+    .InfoFooter_content_phone p:first-child{
+        font-size: 10px;
+    }
+    .InfoFooter_content_phone p:last-child{
+        font-size: 7px;
+    }
+    .InfoFooter_sections_links a{
+        font-size: 7px;
+    }
+}
+@media(max-width:400px) {
+    .InfoFooter_content_links{
+        width: 65%;
+    }
+    .InfoFooter_sections{
+        width: 65%;
+    }
+}
+@media(max-width:400px) {
+    .InfoFooter_content_links a{
+        font-size: 6px;
+    }
+    .InfoFooter_content_links p{
+        font-size: 6px;
+    }
+    .InfoFooter_content_phone p:first-child{
+        font-size: 9px;
+    }
+    .InfoFooter_content_phone p:last-child{
+        font-size: 6px;
+    }
+    .InfoFooter_sections_links a{
+        font-size: 6px;
+    }
+}

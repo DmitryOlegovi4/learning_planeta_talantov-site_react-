@@ -1,5 +1,5 @@
 .nav{
-    z-index: 2;
+    z-index: 5;
     position: sticky;
     top: 0;
     display: flex;
@@ -66,5 +66,169 @@
 .personalAccount_user{
     font-size: 20px;
 }
-
+.btnMenu{
+    display: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    color: #ffcd00;
+}
+.btnMenu:hover {
+    text-shadow: 5px 5px 10px #393838;
+}
+@media(max-width:1200px){
+    .nav{
+        padding: 0 50px;
+    }
+    .giveForm{
+        width: 180px;
+        height: 35px;
+        padding: 0 10px;
+    }
+    .giveForm_text{
+        font-size: 14px;
+    }
+    .giveForm_container{
+        width: 25px;
+        height: 25px;
+    }
+    .giveForm_pen{
+        font-size: 25px;
+    }
+    .menu div{
+        margin: 0 25px;
+    }
+    .menu div a{
+        font-size: 14px;
+    }
+    .personalAccount{
+        width: 150px;
+    }
+    .personalAccount p{
+        font-size: 14px;
+    }
+    .personalAccount_container{
+        width: 25px;
+        height: 25px;
+    }
+    .personalAccount_user{
+        font-size: 16px;
+    }
+    .fas.fa-user{
+        margin-top: 4px;
+    }
+}
+@media(max-width:950px){
+    .menu div{
+        margin: 0 15px;
+    }
+    .nav{
+        padding: 0 30px;
+    }
+}
+@media(max-width:720px){
+    .menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 53px;
+        background-color: rgb(256, 256, 256);
+        box-shadow:  -10px 5px 10px #5c5c5c;
+        width: 200px;
+        text-align: right;
+    }
+    .personalAccount {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 147px;
+        background-color: rgb(256, 256, 256);
+        /*transform: translateX(100%);*/
+        width: 200px;
+        height: 30px;
+        padding: 0;
+        box-shadow:  -10px 5px 10px #5c5c5c;
+        text-align: right;
+    }
+    .personalAccount P:last-child{
+        margin: 5px 15px 0;
+    }
+    .personalAccount_container{
+        display: none;
+        margin-right: 5px;
+    }
+    .btnMenu {
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:600px){
+    .nav{
+        height: 40px;
+    }
+    .giveForm{
+        width: 160px;
+        height: 30px;
+        padding: 0 5px;
+    }
+    .giveForm_text{
+        font-size: 12px;
+    }
+    .giveForm_container{
+        width: 20px;
+        height: 20px;
+    }
+    .giveForm_pen{
+        font-size: 22px;
+    }
+    .menu {
+        top: 43px;
+    }
+    .personalAccount {
+        top: 137px;
+    }
+}
+@media(max-width:400px){
+    .nav{
+        padding: 0 20px;
+    }
+    .giveForm{
+        width: 120px;
+        height: 25px;
+        padding: 0;
+    }
+    .giveForm_text{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .giveForm_container{
+        width: 17px;
+        height: 17px;
+    }
+    .giveForm_pen{
+        font-size: 20px;
+    }
+    .menu {
+        top: 43px;
+        width: 160px;
+    }
+    .personalAccount {
+        top: 137px;
+        width: 160px;
+    }
+    .menu div a{
+        font-size: 12px;
+        width: 130px;
+    }
+    .personalAccount p{
+        font-size: 12px;
+    }
+    .btnMenu{
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+}
 

@@ -1,3 +1,55 @@
 .App{
   text-align: center;
 }
+.MMCContainer{
+  width: 100%;
+  background-image: url(./menu-news-background-girl.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 35%;
+  margin-bottom: 50px;
+}
+
+@media(max-width:1100px){
+  .MMCContainer{
+    background-position: 0 40%;
+  }
+}
+@media(max-width:950px){
+  .MMCContainer{
+    background-position: 0 35%;
+  }
+}
+@media(max-width:850px){
+  .MMCContainer{
+    background-position: 0 37%;
+  }
+}
+@media(max-width:800px){
+  .MMCContainer{
+    background-image: url(./menu-news-background-girl_2.jpg);
+    background-position: 0 50%;
+  }
+}
+@media(max-width:700px){
+  .MMCContainer{
+    background-image: url(./menu-news-background-girl_2.jpg);
+    background-position: 0 53%;
+  }
+}
+@media(max-width:600px){
+  .MMCContainer{
+    background-position: 0 60%;
+  }
+}
+@media(max-width:500px){
+  .MMCContainer{
+    background-position: 0 57%;
+  }
+}
+@media(max-width:400px){
+  .MMCContainer{
+    background-position: 0 57%;
+  }
+
+}

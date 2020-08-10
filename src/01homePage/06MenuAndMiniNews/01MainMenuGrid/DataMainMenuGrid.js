@@ -1,10 +1,10 @@
-export const DataMainMenu = {
+export const DataMainMenuGrid = {
     data:[
         {
             'title': 'Мастер-классы',
             'url': './img/MainMenu/mk.jpg'
         },{
-            'title': 'Подготовка к конкурсу',
+            'title': 'Подготовка \nк конкурсу',
             'url': './img/MainMenu/training.jpg'
         },{
             'title': 'Интернет-конкурсы',
@@ -13,7 +13,7 @@ export const DataMainMenu = {
             'title': 'Интернет-магазин',
             'url': './img/MainMenu/shop.jpg'
         },{
-            'title': 'Образовательное видео',
+            'title': `Образовательное \nвидео`,
             'url': './img/MainMenu/video.jpg'
         },{
             'title': 'Летний отдых',
@@ -22,7 +22,7 @@ export const DataMainMenu = {
             'title': 'Статьи',
             'url': './img/MainMenu/article.jpg'
         },{
-            'title': 'Олимпиада по сольфеджио',
+            'title': 'Олимпиада \nпо сольфеджио',
             'url': './img/MainMenu/olympiad.jpg'
         },{
             'title': 'Любой раздел',
